@@ -12,5 +12,6 @@ end
 
 file '/etc/motd' do
   content "This server is property of Chef\n"
+  manage_symlink_source true
 end
 
